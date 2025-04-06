@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Responsive Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Flexbox Navigation -->
+    <nav class="navbar">
+        <div class="logo">MySite</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </nav>
+
+    <!-- Grid Layout -->
+    <main class="grid-container">
+        <section class="hero">
+            <h1>Welcome</h1>
+            <p>A simple responsive layout</p>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h3>Feature 1</h3>
+                <p>Content here</p>
+            </div>
+            <div class="feature">
+                <h3>Feature 2</h3>
+                <p>Content here</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Simple Layout</p>
+    </footer>
+</body>
+</html>
